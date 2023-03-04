@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+/* PARTNERSHIP HEADING */
+.partnership{
+    padding: 8rem 2% 25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.partnership .title-partnership{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.partnership .desc-partnership{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/* PARTNERSHIP HEADING */
+
+/* PARTNERSHIP CARD */
+.partnership .row-partnership{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.partnership .row-partnership .card-partnership{
+    height: 25rem;
+    width: 24rem;
+    border: .15rem solid var(--first-color);
+    border-radius: .3rem;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .50);
+}
+
+.partnership .row-partnership .card-partnership .thumb-image-partnership{
+    height: 14rem;
+    width: 100%;
+}
+
+.partnership .row-partnership .card-partnership .thumb-image-partnership img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.partnership .row-partnership .card-partnership .desc-card-partnership{
+    padding: .5rem;
+}
+
+.partnership .row-partnership .card-partnership .desc-card-partnership p{
+    font-size: .7rem;
+}
+
+.partnership .row-partnership .card-partnership .desc-card-partnership p span{
+    color: red;
+}
+
+.partnership .row-partnership .card-partnership .desc-card-partnership a{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    color: var(--first-color);
+}
+/* PARTNERSHIP CARD */

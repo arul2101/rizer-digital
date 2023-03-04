@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+.hero{
+    padding: 8rem 10% 6rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+
+/* HERO IMAGE */
+.hero .hero-image{
+    width: 40%;
+    height: 50%;
+}
+
+.hero .hero-image img{
+    width: 100%;
+    height: 100%;
+}
+/* HERO IMAGE */
+
+
+/* HERO DESCRIPTION */
+.hero .hero-desc{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+}
+
+.hero .hero-desc h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero .hero-desc p{
+    font-size: 1rem;
+}
+
+.hero .hero-desc a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: var(--first-color);
+    border-radius: .5rem;
+    height: 4rem;
+    width: 10rem;
+    margin-top: 1rem;
+    transition: all ease .50s;
+}
+
+.hero .hero-desc a:hover{
+    background-color: #0a3b57;
+    color: #dadada;
+    transition: all ease .50s;
+}
+/* HERO DESCRIPTION */
+
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 1275px) {
+    .hero .hero-image{
+        width: 70%;
+        height: 60%;
+    }
+
+    .hero .hero-desc h3{
+        font-size: 1.2rem;
+    }
+
+    .hero .hero-desc p{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero .hero-image{
+        width: 100%;
+        height: 50%;
+    }
+
+    .hero .hero-image img{
+        object-fit: cover;
+    }
+
+    .hero .hero-desc{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .hero-desc h3{
+        font-size: 1.5rem;
+    }
+
+    .hero .hero-desc a{
+        margin: 2rem auto;
+    }
+}

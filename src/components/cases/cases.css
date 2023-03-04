@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+
+.cases{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CASES HEADING */
+.cases .cases-heading{
+    text-align: center;
+    padding: 4rem 10% 14rem;
+    background-color: #313131;
+    color: #fff;
+}
+
+.cases .cases-heading h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+/* CASES HEADING */
+
+/* CASE ITEMS */
+.cases .row-cases{
+    padding: 0 10%;
+    margin: -12rem auto 6rem;
+}
+
+.cases .row-cases .card-case{
+    height: 30rem;
+    width: 30rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.cases .row-cases .card-case h1{
+    margin-bottom: 2rem;
+}
+
+.cases .row-cases .card-case p{
+    font-weight: bold;
+}
+
+.cases .row-cases .card-case .thumb-image{
+    height: 60%;
+    width: 90%;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 0 auto 3rem;
+}
+
+.cases .row-cases .card-case .thumb-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* CASE ITEMS */
+
+/* SLICK SLIDER */
+.slick-slider{
+    box-shadow: 0 0 16px rgba(0, 0, 0, .75);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.arrow-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--first-color);
+    position: absolute;
+    top: 45%;
+    border-radius: 10px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.prev-icon{
+    left: -1%;
+}
+
+.next-icon{
+    right: -1%;
+}
+/* SLICK SLIDER */
+
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 1605px) {
+    .prev-icon{
+        left: -2%;
+    }
+    
+    .next-icon{
+        right: -2%;
+    }
+}
+
+@media(max-width: 1332px) {
+    .cases .row-cases .card-case h1{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1179px) {
+    .cases .row-cases .card-case h1{
+        font-size: .8rem;
+    }
+
+    .cases .row-cases .card-case p{
+        font-size: .7rem;
+    }
+}
+
+@media(max-width: 927px) {
+    .prev-icon{
+        left: -3%;
+    }
+    
+    .next-icon{
+        right: -3%;
+    }
+}
+
+@media(max-width: 639px) {
+    .prev-icon{
+        left: -4%;
+    }
+    
+    .next-icon{
+        right: -4%;
+    }
+}
+
+@media(max-width: 605px) {
+    .cases .row-cases .card-case h1{
+        font-size: .8rem;
+    }
+
+    .cases .row-cases .card-case p{
+        font-size: .5rem;
+    }
+}

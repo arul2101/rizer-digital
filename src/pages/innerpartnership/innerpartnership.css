@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+.partnership{
+    margin: 1rem auto 1rem;
+    width: 70%;
+}
+
+/* INNER PARTNERSHIP HEADING */
+.partnership .back-to{
+    color: grey;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.partnership .partnership-title{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+/* INNER PARTNERSHIP HEADING */
+
+/* INNER PARTNERSHIP ARTICLE */
+.partnership .partnership-periode{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.partnership .partnership-periode span{
+    color: red;
+}
+
+.partnership .thumb-image-partnership{
+    width: 85%;
+    height: 34rem;
+    margin: 0 auto 3rem;
+}
+
+.partnership .thumb-image-partnership img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partnership .partnership-description p{
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 1rem; */
+    margin-bottom: 1.5rem;
+}
+
+.partnership .partnership-description p span{
+    font-weight: bold;
+}
+
+.partnership .partnership-description ol{
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.partnership .partnership-description ul{
+    list-style:circle;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+/* INNER PARTNERSHIP ARTICLE */
+
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 940px) {
+    .partnership{
+        width: 85%;
+    }
+    .partnership .thumb-image-partnership{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 551px) {
+    .partnership .partnership-title{
+        font-size: 1.7rem;
+    }
+
+    .partnership .partnership-title p{
+        font-size: 1rem;
+    }
+}

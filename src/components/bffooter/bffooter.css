@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+.bf-footer{
+    background-image: url('./../../img/before-footer/before-footer-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 10%;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+    object-fit: cover;
+}
+
+.bf-footer::after{
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .75);
+    z-index: -999;
+}
+
+.bf-footer h3{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    z-index: 999;
+}
+
+.bf-footer p{
+    margin-bottom: 1.5rem;
+}
+
+.bf-footer a{
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: .3rem;
+}
+
+.bf-footer a:hover{
+    background-color: #0a3b57;
+    color: #dadada;
+}

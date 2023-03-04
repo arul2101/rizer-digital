@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+.reviews{
+    padding: 2rem 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: var(--first-color);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.reviews .reviews-col-1 h3,
+.reviews .reviews-col-2 h3,
+.reviews .reviews-col-3 h3{
+    font-size: 1.7rem;
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 940px) {
+    .reviews{
+        gap: 12rem;
+    }
+
+    .reviews .reviews-col-1 h3,
+    .reviews .reviews-col-2 h3,
+    .reviews .reviews-col-3 h3{
+        font-size: 1.2rem;
+    }
+    .reviews .reviews-col-1 p,
+    .reviews .reviews-col-2 p,
+    .reviews .reviews-col-3 p{
+        font-size: .8rem;
+    }
+}
+
+@media(max-width: 686px) {
+    .reviews{
+        gap: 8rem;
+    }
+}
+
+@media(max-width: 534px) {
+    .reviews{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+.career{
+    padding: 4.4rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CAREER LEFT SIDE */
+.career .career-left-side h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.career .career-left-side{
+    height: 100%;
+    padding: 4rem 2rem;
+    width: 50%;
+}
+/* CAREER LEFT SIDE */
+
+/* CAREER RIGHT SIDE */
+.career .career-right-side{
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 4rem 2rem;
+    width: 50%;
+}
+
+.career .career-right-side .title-right-side{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.career .career-right-side form .form-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.career .career-right-side form .form-section h3{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.career .career-right-side form .form-section label{
+    font-size: 1rem;
+}
+
+.career .career-right-side form .form-section .select-option{
+    height: 2.5rem;
+    width: 38rem;
+    border-radius: .3rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.career .career-right-side form .form-section .inner-form-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.career .career-right-side form .form-section .inner-form-section input{
+    height: 2.5rem;
+    width: 38rem;
+    display: flex;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.career .career-right-side form .form-section .inner-form-section input::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+.career .career-right-side form .form-section .inner-form-section .sub-inner-form{
+    display: flex;
+    flex-direction: end;
+    gap: 1rem
+}
+
+.career .career-right-side form .form-section .inner-form-section .sub-inner-form .from,
+.career .career-right-side form .form-section .inner-form-section .sub-inner-form .to{
+    width: 10rem;
+}
+
+.career .career-right-side form button{
+    height: 3rem;
+    width: 8rem;
+    background-color: var(--first-color);
+    color: white;
+    border-radius: .2rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.career .career-right-side form button:hover{
+    background-color: #0a3b57;
+    color: #dadada;
+}
+/* CAREER RIGHT SIDE */
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 1629px) {
+    .career{
+        flex-direction: column;
+    }
+
+    .career .career-left-side,
+    .career .career-right-side{
+        width: 100%;
+    }
+
+    .career .career-right-side form .form-section .select-option{
+        width: 60rem;
+    }
+
+    .career .career-right-side form .form-section .inner-form-section input{
+        width: 60rem;
+    }
+}
+
+@media(max-width: 1287px) {
+    .career .career-right-side form .form-section .select-option{
+        width: 32rem;
+    }
+
+    .career .career-right-side form .form-section .inner-form-section input{
+        width: 32rem;
+    }
+}
+
+@media(max-width: 793px) {
+    .career .career-right-side form .form-section .select-option{
+        width: 22rem;
+    }
+
+    .career .career-right-side form .form-section .inner-form-section input{
+        width: 22rem;
+    }
+}
+
+@media(max-width: 627px) {
+    .career .career-right-side form .form-section .select-option{
+        width: 100%
+    }
+
+    .career .career-right-side form .form-section .inner-form-section input{
+        width: 100%;
+    }
+}
+
+@media(max-width: 477px) {
+    .career .career-right-side form .form-section .select-option{
+        width: 100%
+    }
+
+    .career .career-right-side form .form-section .inner-form-section .sub-inner-form .from,
+    .career .career-right-side form .form-section .inner-form-section .sub-inner-form .to{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

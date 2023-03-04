@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+.team{
+    margin-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.team h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--first-color);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 5%;
+}
+
+.team .team-hero-image{
+    height: 120%;
+    width: 99vw;
+}
+
+.team .team-hero-image img{
+    height: 100%;
+    width: 100%;
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 940px) {
+    .team .team-hero-image{
+        height: 100%;
+    }
+}
+
+@media(max-width: 700px) {
+    .team h3{
+        font-size: 1.2rem;
+    }
+}

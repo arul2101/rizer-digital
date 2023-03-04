@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+footer{
+    padding: 2.5rem;
+    background-color: var(--second-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER LEFT SIDE */
+footer .row-footer .footer-left-side h2{
+    margin-bottom: 1.5rem;
+    color: #fff;
+
+}
+
+footer .row-footer .footer-left-side p span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer .row-footer .footer-left-side p{
+    margin-bottom: 1rem;
+    color: #fff;
+}
+/* FOOTER LEFT SIDE */
+
+/* FOOTER RIGHT SIDE */
+footer .row-footer .footer-right-side{
+    font-size: 2rem;
+}
+
+footer .row-footer .footer-right-side a{
+    display: inline-block;
+    margin-right: .5rem;
+    color: #fff;
+}
+
+footer .copyright{
+    margin-top: 2rem;
+    color: #a3a3a3;
+}
+/* FOOTER RIGHT SIDE */
+
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 700px) {
+    footer .row-footer .footer-left-side{
+        width: 60%;
+    }
+
+    footer .row-footer .footer-right-side{
+        width: 30%;
+        text-align: right;
+    }
+    footer .row-footer .footer-left-side h2{
+        font-size: 1rem;
+    }
+
+    footer .row-footer .footer-left-side p{
+        font-size: .8rem;
+    }
+
+    footer .row-footer .footer-left-side p span{
+        font-size: .9rem;
+    }
+
+    footer .copyright{
+        font-size: .7rem;
+    }
+}

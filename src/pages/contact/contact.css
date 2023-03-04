@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+.contact{
+    padding: 14rem 10% 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CONTACT ROW 1 */
+.contact .contact-row1 h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact .contact-row1 p span{
+    color: #0F6292;
+    font-size: 1.2rem;
+}
+
+/* CONTACT ROW 1 */
+
+/* CONTACT ROW CENTER */
+.contact .contact-row-center{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    align-items: center;
+    margin: 2rem 0;
+    width: 60%;
+}
+
+.contact .contact-row-center p{
+    font-style: italic;
+}
+
+.contact .contact-row-center .row-div{
+    width: 25%;
+    height: 2px;
+    background-color: var(--second-color);
+}
+/* CONTACT ROW CENTER */
+
+
+/* CONTACT ROW 2 */
+.contact .contact-row2 form input{
+    height: 5rem;
+    width: 35rem;
+    padding: 1rem;
+    display: block;
+    border: 3px solid var(--second-color);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.contact .contact-row2 form .message{
+    height: 15rem;
+    width: 35rem;
+    padding: 1rem;
+    display: block;
+    border: 3px solid var(--second-color);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+.contact .contact-row2 form .message::placeholder,
+.contact .contact-row2 form input,
+.contact .contact-row2 form .message{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .contact-row2 form button{
+    height: 3rem;
+    width: 8rem;
+    background-color: var(--first-color);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.contact .contact-row2 form button:hover{
+    background-color: #0a3b57;
+    color: #dadada;
+}
+/* CONTACT ROW 2 */
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 845px) {
+    .contact .contact-row-center p{
+        font-size: .7rem;
+    }
+
+    .contact .contact-row-center{
+        width: 100%;
+    }
+}
+
+@media(max-width: 657px) {
+    .contact .contact-row1 h3{
+        font-size: 1.2rem;
+    }
+    .contact .contact-row1 p span{
+        font-size: .9rem;
+    }
+
+    .contact .contact-row1 p{
+        font-size: .7rem;
+    }
+
+    .contact .contact-row2 form input,
+    .contact .contact-row2 form .message{
+        width: 25rem;
+    }
+}
+
+@media(max-width: 441px) {
+    .contact .contact-row2 form input,
+    .contact .contact-row2 form .message{
+        width: 20rem;
+    }
+}

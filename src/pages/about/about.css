@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.about{
+    margin: 10rem auto 0;
+    padding: 0 15%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ABOUT HEADING */
+.about .about-heading h3{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about .about-heading p{
+    margin-bottom: 4rem;
+}
+/* ABOUT HEADING */
+
+/* ABOUT IMAGE */
+.about .row-about{
+    padding: 0 5%;
+    margin: 2rem auto 6rem;
+}
+
+.about .image-about{
+    height: 30rem;
+}
+
+.about .image5 img{
+    object-position: right;
+}
+
+.about .image-about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ABOUT IMAGE */
+
+/* RESPONSIVE BREAKPOINT */
+@media(max-width: 600px) {
+    .about{
+        padding: 0 5%;
+    }
+
+    .about .row-about{
+        padding: 0;
+        margin: 2rem 0 6rem;
+    }
+}

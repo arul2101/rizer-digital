@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --first-color: #0F6292;
+    --second-color: #332C39;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7%;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+/* NAVBAR LOGO */
+nav .logo-brand{
+    width: 15rem;
+    height: 4rem;
+}
+
+nav .logo-brand img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* NAVBAR LOGO */
+
+/* NAVBAR MENU */
+nav .nav-menu a{
+    display: inline-block;
+    margin: 1rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+nav .nav-menu a::after{
+    content: '';
+    display: block;
+    padding-bottom: .2rem;
+    border-bottom: .15rem solid var(--first-color);
+    transform: scaleX(0);
+    transition: all .50s ease;
+}
+
+nav .nav-menu a:hover::after{
+    transform: scaleX(.8);
+    transition: all .50s ease;
+}
+
+nav .nav-menu a:hover{
+    color: var(--first-color);
+    transition: all .50s ease;
+}
+
+nav .nav-menu a.active{
+    color: var(--first-color);
+    transition: all .50s ease;
+}
+
+nav .nav-menu a.active::after{
+    transform: scaleX(.8);
+    transition: all .50s ease;
+}
+
+nav .burgers{
+    color: var(--first-color);
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+/* NAVBAR MENU */
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 1135px){
+    nav .logo-brand{
+        width: 13rem;
+    }
+    nav .nav-menu a{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 940px){
+    nav .burgers{
+        display: block;
+    }
+
+    nav .nav-menu{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+        top: -604%;
+        left: 0;
+        width: 100%;
+        transition: all .50s ease;
+        background-color: #fff;
+        
+    }
+
+    nav #active{
+        top: 100%;
+        transition: all .50s ease;
+    }
+
+    nav .nav-menu a{
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    nav .nav-menu a:hover::after{
+        transform: scaleX(.04);
+    }
+}
