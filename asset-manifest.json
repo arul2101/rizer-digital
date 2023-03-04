@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rizer-digital/static/css/main.44e87e8d.css",
-    "main.js": "/rizer-digital/static/js/main.c172b45d.js",
+    "main.js": "/rizer-digital/static/js/main.1c357510.js",
     "static/media/about-img6.jpg": "/rizer-digital/static/media/about-img6.b0c1bf4363f6ecca41b1.jpg",
     "static/media/our-team-image.png": "/rizer-digital/static/media/our-team-image.7507f7e532fec09e01ff.png",
     "static/media/2.jpg": "/rizer-digital/static/media/2.b354ded4c8f016d2c704.jpg",
@@ -26,10 +26,10 @@
     "static/media/slick.woff": "/rizer-digital/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/rizer-digital/index.html",
     "main.44e87e8d.css.map": "/rizer-digital/static/css/main.44e87e8d.css.map",
-    "main.c172b45d.js.map": "/rizer-digital/static/js/main.c172b45d.js.map"
+    "main.1c357510.js.map": "/rizer-digital/static/js/main.1c357510.js.map"
   },
   "entrypoints": [
     "static/css/main.44e87e8d.css",
-    "static/js/main.c172b45d.js"
+    "static/js/main.1c357510.js"
   ]
 }
