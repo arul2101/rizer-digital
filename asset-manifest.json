@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/rizer-digital/static/css/main.44e87e8d.css",
+    "main.js": "/rizer-digital/static/js/main.c172b45d.js",
+    "static/media/about-img6.jpg": "/rizer-digital/static/media/about-img6.b0c1bf4363f6ecca41b1.jpg",
+    "static/media/our-team-image.png": "/rizer-digital/static/media/our-team-image.7507f7e532fec09e01ff.png",
+    "static/media/2.jpg": "/rizer-digital/static/media/2.b354ded4c8f016d2c704.jpg",
+    "static/media/1.jpg": "/rizer-digital/static/media/1.0c88c43e317dff2f166f.jpg",
+    "static/media/about-img5.jpg": "/rizer-digital/static/media/about-img5.4b6ed26c108ffda934f9.jpg",
+    "static/media/about-img2.jpg": "/rizer-digital/static/media/about-img2.74389dadfdec43c5415c.jpg",
+    "static/media/about-img3.jpg": "/rizer-digital/static/media/about-img3.864c4382596d8c55d956.jpg",
+    "static/media/partnership3.jpg": "/rizer-digital/static/media/partnership3.869d023114cdfcb9be47.jpg",
+    "static/media/about-img4.jpg": "/rizer-digital/static/media/about-img4.4a6b938da12178bec748.jpg",
+    "static/media/3.jpg": "/rizer-digital/static/media/3.584e19e03701f37dfd7d.jpg",
+    "static/media/about-img1.jpg": "/rizer-digital/static/media/about-img1.fd6c5738786413f18b09.jpg",
+    "static/media/partnership1.jpg": "/rizer-digital/static/media/partnership1.b354ded4c8f016d2c704.jpg",
+    "static/media/4.jpg": "/rizer-digital/static/media/4.038acd23fc43eaa1c095.jpg",
+    "static/media/partnership2.jpg": "/rizer-digital/static/media/partnership2.20d6da0f0f4812fb90ae.jpg",
+    "static/media/before-footer-image.jpg": "/rizer-digital/static/media/before-footer-image.91631705f5731b563706.jpg",
+    "static/media/5.jpg": "/rizer-digital/static/media/5.77c75fa9fb4c1dfc398c.jpg",
+    "static/media/image-hero.png": "/rizer-digital/static/media/image-hero.fd96e362448aa49126f6.png",
+    "static/media/logo-nav.png": "/rizer-digital/static/media/logo-nav.9e1f4d39a2c33790c6ba.png",
+    "static/media/slick.svg": "/rizer-digital/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/rizer-digital/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/rizer-digital/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/rizer-digital/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/rizer-digital/index.html",
+    "main.44e87e8d.css.map": "/rizer-digital/static/css/main.44e87e8d.css.map",
+    "main.c172b45d.js.map": "/rizer-digital/static/js/main.c172b45d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e87e8d.css",
+    "static/js/main.c172b45d.js"
+  ]
+}
