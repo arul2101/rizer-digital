@@ -24,7 +24,7 @@ import InnerPartnership from './pages/innerpartnership/InnerPartnership';
 import NotFound from './pages/notfound/NotFound';
 
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Navbar />}>
       <Route path="/" element={<Home />} />

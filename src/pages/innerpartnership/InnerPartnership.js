@@ -37,7 +37,7 @@ const InnerPartnership = () => {
         >
             {data ? (
                 <>
-                    <NavLink to="/rizer-digital/partnership" className='back-to'>&#8592; Back</NavLink>
+                    <NavLink to="/partnership" className='back-to'>&#8592; Back</NavLink>
                     <div className="thumb-image-partnership">
                         <img src={data.img} alt="image-partnership" />
                     </div>
