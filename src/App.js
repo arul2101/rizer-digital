@@ -3,7 +3,7 @@ import './App.css';
 
 // React Router
 import { 
-  createBrowserRouter,
+  createHashRouter,
   Route,
   createRoutesFromElements,
   RouterProvider
@@ -26,14 +26,14 @@ import NotFound from './pages/notfound/NotFound';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/rizer-digital" element={<Navbar />}>
-      <Route path="/rizer-digital" element={<Home />} />
-      <Route path="/rizer-digital/about" element={<About />} />
-      <Route path='/rizer-digital/team' element={<Team />} />
-      <Route path='/rizer-digital/career' element={<Career />} />
-      <Route path='/rizer-digital/partnership' element={<Partnership />} />
-      <Route path='/rizer-digital/partnership/:id' element={<InnerPartnership />} />
-      <Route path='/rizer-digital/contact' element={<Contact />} />
+    <Route path="/" element={<Navbar />}>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path='/team' element={<Team />} />
+      <Route path='/career' element={<Career />} />
+      <Route path='/partnership' element={<Partnership />} />
+      <Route path='/partnership/:id' element={<InnerPartnership />} />
+      <Route path='/contact' element={<Contact />} />
 
       <Route path="*" element={<NotFound />} />
     </Route>

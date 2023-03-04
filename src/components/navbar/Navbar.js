@@ -29,12 +29,12 @@ const Navbar = () => {
                 </div>
 
                 <div className="nav-menu" id={toggle ? "active" : ""}>
-                    <NavLink to="/rizer-digital">Home</NavLink>
-                    <NavLink to="/rizer-digital/about">About Us</NavLink>
-                    <NavLink to="/rizer-digital/team">Our Team</NavLink>
-                    <NavLink to="/rizer-digital/career">Career</NavLink>
-                    <NavLink to="/rizer-digital/partnership">Partnership</NavLink>
-                    <NavLink to="/rizer-digital/contact">Contact Us</NavLink>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/about">About Us</NavLink>
+                    <NavLink to="/team">Our Team</NavLink>
+                    <NavLink to="/career">Career</NavLink>
+                    <NavLink to="/partnership">Partnership</NavLink>
+                    <NavLink to="/contact">Contact Us</NavLink>
                 </div>
 
                 <div className="burgers" onClick={handleToggle}>

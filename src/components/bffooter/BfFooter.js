@@ -11,7 +11,7 @@ const BfFooter = () => {
             <h3>Akselerasikan Bisnis Anda bersama Kami</h3>
 
             <p>Kami telah dipercaya oleh klien-klien besar, menengah maupun yang sedang bertumbuh. Kini giliran Anda untuk bergabung, kami selalu senantiasa hadir untuk melayani Anda.</p>
-            <NavLink to="/rizer-digital/contact">Hubungi Kami</NavLink>
+            <NavLink to="/contact">Hubungi Kami</NavLink>
         </div>
     )
 }

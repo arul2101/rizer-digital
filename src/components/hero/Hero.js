@@ -34,7 +34,7 @@ const Hero = () => {
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequatur eum laboriosam velit blanditiis? Labore harum quos ea deleniti voluptatum quo sequi aut quaerat ex ullam, iste veniam perferendis reiciendis ad! Velit incidunt maiores expedita culpa cum voluptas possimus voluptatum laboriosam voluptate totam. Minus beatae, unde odio laboriosam distinctio soluta.</p>
 
-                <NavLink to="/rizer-digital/contact">Hubungi Kami!</NavLink>
+                <NavLink to="/contact">Hubungi Kami!</NavLink>
             </m.div>
         </div>
     )
